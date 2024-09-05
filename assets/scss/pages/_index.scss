@@ -1,3 +1,22 @@
 .index-title {
   font-size: 100px;
 }
+//減掉側邊欄
+.content {
+  width: calc(100% - 296px);
+  margin-left: auto;
+}
+
+.text-grey {
+  &-600 {
+    color: $gray-600;
+  }
+
+  &-900 {
+    color: $gray-900;
+  }
+}
+
+.assignment {
+  min-width: 320px;
+}
